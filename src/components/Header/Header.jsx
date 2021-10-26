@@ -1,12 +1,14 @@
 import styles from "./Header.module.css"
-import Logo from "../LogoFX";
+import Logo from "../Logo/Logo";
+
 
 const Header = () => {
     return(
     <header>
-    <div className={styles.logo}>
+    <div>
+        <div className={styles.logo}>
         <Logo/>
-    </div>
+        </div>
         <div className={styles.menu}>
             <nav>
                 <ul className={styles.onglets}>
@@ -16,6 +18,7 @@ const Header = () => {
                     <li className={styles.lien}>Contact</li>
                 </ul>
             </nav>
+        </div>
     </div>
     </header>
     );
