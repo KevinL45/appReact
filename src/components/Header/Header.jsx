@@ -1,8 +1,12 @@
 import styles from "./Header.module.css"
+import Logo from "../LogoFX";
+
 const Header = () => {
     return(
     <header>
-     <img src={logo} className="App-logo" alt="logo" />
+    <div className={styles.logo}>
+        <Logo/>
+    </div>
         <div className={styles.menu}>
             <nav>
                 <ul className={styles.onglets}>
@@ -12,7 +16,7 @@ const Header = () => {
                     <li className={styles.lien}>Contact</li>
                 </ul>
             </nav>
-        </div>
+    </div>
     </header>
     );
 };
