@@ -6,7 +6,7 @@ const Footer = () =>{
         <footer>
             <div className={style.footer}>
                 <h3>Menus</h3>
-                <ul>
+                <ul className={style.onglets}>
                     <li>Accueil</li>
                     <li>Galerie</li>
                     <li>A propos</li>
@@ -15,14 +15,14 @@ const Footer = () =>{
             </div>
             <div className={style.footer}>
                 <h3>Réseaux sociaux</h3>
-                <ul>
+                <ul className={style.onglets}>
                     <li>Twitter</li>
                     <li>Youtube</li>
                 </ul>
             </div>
             <div className={style.footer}>
-                <h3>Besoin d'information ?</h3>
-                <ul>
+                <h3>Me contacter </h3>
+                <ul className={style.onglets}>
                     <li>frocusx@hotmail.fr</li>
                 </ul>
             </div>

@@ -2,12 +2,16 @@ import styles from "./Header.module.css"
 const Header = () => {
     return(
     <header>
-        <div className="header">
-            <ul>
-                <li>Accueil</li>
-                <li>Contact</li>
-                <li>A propos</li>
-            </ul>
+     <img src={logo} className="App-logo" alt="logo" />
+        <div className={styles.menu}>
+            <nav>
+                <ul className={styles.onglets}>
+                    <li className={styles.lien}>Accueil</li>
+                    <li className={styles.lien}>Galerie</li>
+                    <li className={styles.lien}>A propos</li>
+                    <li className={styles.lien}>Contact</li>
+                </ul>
+            </nav>
         </div>
     </header>
     );

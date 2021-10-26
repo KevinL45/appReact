@@ -1,3 +1,11 @@
-.footer{
-    border-left: 1px black;
+.onglets{
+    list-style: none;
 }
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+

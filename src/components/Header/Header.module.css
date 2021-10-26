@@ -1,0 +1,35 @@
+.onglets{
+    list-style: none;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+
+    margin: 0.5rem;               
+    text-align: center;           /* Centrage du texte */   
+    background-color: #b4b4b4;    /* Couleur d'arrière-plan */
+    text-decoration: none;        /* Suppression du soulignement */
+    border-radius: 4px;           /* Arrondis des bordures */
+
+}
+nav {
+    width:100%
+}
+
+.menu li {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #f7f7f7;    /* Couleur d'arrière-plan */
+    color: rgb(0, 0, 0);                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
