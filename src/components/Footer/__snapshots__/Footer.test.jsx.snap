@@ -5,43 +5,23 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <header>
-        <div
-          class="header"
-        >
-          <ul>
-            <li>
-              Accueil
-            </li>
-            <li>
-              Contact
-            </li>
-            <li>
-              A propos
-            </li>
-          </ul>
-        </div>
-      </header>
+      <div
+        class="home"
+      >
+        <footer>
+          2020 - Copyright
+        </footer>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <header>
-      <div
-        class="header"
-      >
-        <ul>
-          <li>
-            Accueil
-          </li>
-          <li>
-            Contact
-          </li>
-          <li>
-            A propos
-          </li>
-        </ul>
-      </div>
-    </header>
+    <div
+      class="home"
+    >
+      <footer>
+        2020 - Copyright
+      </footer>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
