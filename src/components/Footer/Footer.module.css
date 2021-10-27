@@ -1,12 +1,26 @@
 footer{
     background-color: #f3f3f3;    /* Couleur d'arrière-plan */
     padding:5px;
+    text-align: center;
+}
+.piedpage{
+
+    text-align: center;
 
 
 }
 .grille{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 300px);
+    
+}
+
+.droit {
+    border-top: 1px solid black;       /* Ajout d'une bordure */
+    padding:5px;
+    font-family: Arial;
+
+
 }
 
 
@@ -38,6 +52,8 @@ footer{
     border-radius: 4px;           /* Arrondis des bordures */
     padding:5px;
     text-align: center; 
+    border-bottom: 3px solid black;       /* Ajout d'une bordure */
+
 }
 
 

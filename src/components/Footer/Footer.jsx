@@ -11,6 +11,7 @@ const Footer = () =>{
                 </ul>
                 <div className={styles.ligne}></div>
                 <ul className={styles.onglets}>
+                <li className={styles.lien}>Accueil</li>
                 <li className={styles.lien}>Galerie</li>
                 <li className={styles.lien}>A propos</li>
                 <li className={styles.lien}>Contact</li>
@@ -37,6 +38,20 @@ const Footer = () =>{
                 <li className={styles.lien}>frocusx@hotmail.fr</li>
                 </ul>
                 </div>
+
+                <div>
+                <ul className={styles.onglets}>
+                <li className={styles.titre}>LOGO</li>
+                </ul>
+                <div className={styles.ligne}></div>
+                <ul className={styles.onglets}>
+                <li className={styles.lien}>En cours...</li>
+                </ul>
+                </div>
+                </div>
+
+                <div className={styles.droit} >
+                © 2020 - Tous droits réservés                
                 </div>
 
 
