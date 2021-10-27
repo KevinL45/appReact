@@ -1,10 +1,30 @@
+footer{
+    background-color: #f7f7f7;    /* Couleur d'arrière-plan */
+    padding:5px;
+
+}
+
+
 .onglets{
     list-style: none;
+    text-decoration: none;        /* Suppression du soulignement */
+    border-radius: 4px;           /* Arrondis des bordures */
+    font-family: Arial;
+    
+}
+
+.lien {
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    padding:5px;
+
+   
 }
 
 .footer{
-    display: flex;
-    flex-wrap: wrap;
+    font-family: Arial;
+    font-weight: bold
+
 }
 
 

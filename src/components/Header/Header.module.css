@@ -22,7 +22,7 @@
 
 }
 
-.menu li {
+.menu .lien {
     display:block;                /* Transformation en block */
     min-width: 120px;             /* Largeur minimale des liens */   
     
@@ -34,6 +34,8 @@
     text-decoration: none;        /* Suppression du soulignement */
     border: 1px solid #fff;       /* Ajout d'une bordure */
     border-radius: 4px;           /* Arrondis des bordures */
+    font-family: Arial;
+    font-weight: bold
 }
 
 nav {
