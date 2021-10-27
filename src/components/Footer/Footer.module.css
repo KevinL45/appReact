@@ -1,15 +1,10 @@
 footer{
-    background-color: #f7f7f7;    /* Couleur d'arrière-plan */
+    background-color: #f3f3f3;    /* Couleur d'arrière-plan */
     padding:5px;
-    text-align: center;
 
 
 }
 
-.onglets .lien{
-    display:block;                /* Transformation en block */
-    min-width: 120px;             /* Largeur minimale des liens */ 
-}
 
 
 .onglets{
@@ -17,6 +12,8 @@ footer{
     text-decoration: none;        /* Suppression du soulignement */
     border-radius: 4px;           /* Arrondis des bordures */
     font-family: Arial;
+    width: 160px;             /* Largeur minimale des liens */   
+
 
 
     
@@ -29,6 +26,7 @@ footer{
     border-radius: 4px;           /* Arrondis des bordures */
     background-color: #fff;    /* Couleur d'arrière-plan */
     padding:5px;
+    text-align: center;
 
     
 
