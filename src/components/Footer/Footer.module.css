@@ -4,7 +4,10 @@ footer{
 
 
 }
-
+.grille{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
 .onglets{
@@ -12,8 +15,9 @@ footer{
     text-decoration: none;        /* Suppression du soulignement */
     border-radius: 4px;           /* Arrondis des bordures */
     font-family: Arial;
-    width: 160px;             /* Largeur minimale des liens */   
-
+    width: 180px;             /* Largeur minimale des liens */  
+    font-family: Arial;
+    font-weight: bold;
 
 
     
@@ -27,17 +31,13 @@ footer{
     background-color: #fff;    /* Couleur d'arrière-plan */
     padding:5px;
     text-align: center;
+}
 
+.titre {
     
-
-   
+    border-radius: 4px;           /* Arrondis des bordures */
+    padding:5px;
+    text-align: center; 
 }
-
-.footer{
-    font-family: Arial;
-    font-weight: bold
-
-}
-
 
 
