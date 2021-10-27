@@ -5,7 +5,7 @@ const Footer = () =>{
     return (
         <footer>
             <div className={styles.footer}>
-                <h3>Menus</h3>
+                <h3>MENUS</h3>
                 <ul className={styles.onglets}>
                 <li className={styles.lien}>Accueil</li>
                 <li className={styles.lien}>Galerie</li>
@@ -14,14 +14,14 @@ const Footer = () =>{
                 </ul>
             </div>
             <div className={styles.footer}>
-                <h3>Réseaux sociaux</h3>
+                <h3>RESEAUX SOCIAUX</h3>
                 <ul className={styles.onglets}>
                 <li className={styles.lien}>Twitter</li>
                 <li className={styles.lien}>Youtube</li>
                 </ul>
             </div>
             <div className={styles.footer}>
-                <h3>Me contacter </h3>
+                <h3>ME CONTACTER</h3>
                 <ul className={styles.onglets}>
                 <li className={styles.lien}>frocusx@hotmail.fr</li>
                 </ul>
