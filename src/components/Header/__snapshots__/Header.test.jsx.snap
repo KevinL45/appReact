@@ -6,40 +6,74 @@ Object {
   "baseElement": <body>
     <div>
       <header>
-        <div
-          class="header"
-        >
-          <ul>
-            <li>
-              Accueil
-            </li>
-            <li>
-              Contact
-            </li>
-            <li>
-              A propos
-            </li>
-          </ul>
+        <div>
+          <div
+            class="menu"
+          >
+            <nav>
+              <ul
+                class="onglets"
+              >
+                <li
+                  class="lien"
+                >
+                  ACCUEIL
+                </li>
+                <li
+                  class="lien"
+                >
+                  GALERIE
+                </li>
+                <li
+                  class="lien"
+                >
+                  A PROPOS
+                </li>
+                <li
+                  class="lien"
+                >
+                  CONTACT
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
     </div>
   </body>,
   "container": <div>
     <header>
-      <div
-        class="header"
-      >
-        <ul>
-          <li>
-            Accueil
-          </li>
-          <li>
-            Contact
-          </li>
-          <li>
-            A propos
-          </li>
-        </ul>
+      <div>
+        <div
+          class="menu"
+        >
+          <nav>
+            <ul
+              class="onglets"
+            >
+              <li
+                class="lien"
+              >
+                ACCUEIL
+              </li>
+              <li
+                class="lien"
+              >
+                GALERIE
+              </li>
+              <li
+                class="lien"
+              >
+                A PROPOS
+              </li>
+              <li
+                class="lien"
+              >
+                CONTACT
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
   </div>,

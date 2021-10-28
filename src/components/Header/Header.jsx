@@ -1,5 +1,4 @@
 import styles from "./Header.module.css"
-import Logo from "../Logo/Logo";
 
 
 const Header = () => {
@@ -20,5 +19,5 @@ const Header = () => {
     </header>
     );
 };
-//Permet d'exporter le composant header
+//Permet d'exporter le composant Header
 export default Header;

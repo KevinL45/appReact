@@ -1,0 +1,28 @@
+.contenu{
+    background-color: #f3f3f3;    /* Couleur d'arrière-plan */
+    text-align: center;
+    
+
+
+}
+
+
+.formulaire{
+    padding:5px;
+    height:200px;
+
+}
+
+.login{
+
+    padding:5px;
+    border-bottom: 1px solid black;       /* Ajout d'une bordure */
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.label{
+    padding:5px;
+    font-family: Arial;
+    font-weight: bold;
+}
