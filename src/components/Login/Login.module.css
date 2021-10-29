@@ -1,15 +1,16 @@
 .contenu{
     background-color: #f3f3f3;    /* Couleur d'arrière-plan */
     text-align: center;
-    
-
-
+    border: 1px solid black;
+    border-radius: 4px;           /* Arrondis des bordures */
 }
 
 
 .formulaire{
-    padding:5px;
+    padding:5px ;
     height:200px;
+    
+
 
 }
 
@@ -26,3 +27,4 @@
     font-family: Arial;
     font-weight: bold;
 }
+
