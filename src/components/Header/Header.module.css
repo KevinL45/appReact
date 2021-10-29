@@ -19,6 +19,7 @@
     background-color: #f3f3f3;    /* Couleur d'arrière-plan */
     text-decoration: none;        /* Suppression du soulignement */
     border-radius: 4px;           /* Arrondis des bordures */
+    border: 1px solid rgb(155, 154, 154);
 
 }
 
